@@ -49,18 +49,16 @@ class _AirLineListPageState extends State<AirLineListPage> {
         if (vm.state is VMErrorState) {
           return ErrorPlaceHolder(
               errorMessage: (vm.state as VMErrorState).msg,
-              retryAction: () {
-                vm.fetchData(true);
-              });
+              retryAction: () => vm.fetchData(true));
         } else if (vm.state is VMLoadingState) {
           return LoadingSpinner();
         } else {
           return RefreshIndicator(
               child: AirLineListWidget(
-                  airLines: (vm.state as VMSuccessState).value),
-              onRefresh: () {
-                return vm.fetchData(false);
-              });
+                  airLines: (vm.state as VMContentState).value,
+                  toggleFavouriteState: (model) async =>
+                      await _vm.toggleFavouriteState(model)),
+              onRefresh: () => vm.fetchData(false));
         }
       },
     );

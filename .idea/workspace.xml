@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cab8abf6-34c1-4a24-a7dd-a69c1348ee28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Demo-Flutter-MVVM-DI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/airline/AirLinesService.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/airline/FavouritesService.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/airline/model/AirLineDomainModel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/AirLineModel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/airline/model/AirLineDataModel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/remote/AirLineApi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/airline/AirLineApi.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/di/Injector.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/di/Injector.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/di/Injector.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/di/Injector.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/AirLinesService.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/AuthService.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/FavouritesService.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/vmstate/VMState.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/vmstate/VMState.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/list/AirLineListPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/list/AirLineListPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/list/AirLineListPageVM.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/list/AirLineListPageVM.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/list/AirLineListTileWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/list/AirLineListTileWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/list/AirLineListWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/list/AirLineListWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5_API_29]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1o9QYWokIXydv2UUFVKMZbOg1Cx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/data/airline" />
+      <recent name="$PROJECT_DIR$/lib/domain/airline" />
+      <recent name="$PROJECT_DIR$/lib/domain/model" />
+      <recent name="$PROJECT_DIR$/lib/data/model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/ui/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/ui/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab8abf6-34c1-4a24-a7dd-a69c1348ee28" name="Default Changelist" comment="" />
+      <created>1612696373431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612696373431</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1864" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612696734560">
+      <screen x="1440" y="25" width="1920" height="974" />
+    </state>
+    <state x="1864" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612696734560" />
+    <state x="2213" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1612706319632">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2213" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612706319632" />
+    <state x="2137" y="306" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1612696701921">
+      <screen x="1440" y="25" width="1920" height="974" />
+    </state>
+    <state x="2137" y="306" key="#com.intellij.ide.util.TreeFileChooserDialog/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612696701921" />
+    <state x="2148" y="253" key="#xdebugger.evaluate" timestamp="1612708531676">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2148" y="253" key="#xdebugger.evaluate/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612708531676" />
+    <state x="1540" y="110" width="1720" height="859" key="AVDManager" timestamp="1612701634126">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1540" y="110" width="1720" height="859" key="AVDManager/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612701634126" />
+    <state x="1540" y="110" width="1720" height="859" key="AVDManager/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612701608727" />
+    <state x="2195" y="290" key="AndroidProcessChooserDialog" timestamp="1612702583323">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2195" y="290" key="AndroidProcessChooserDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612702583323" />
+    <state width="605" height="466" key="DebuggerActiveHint" timestamp="1612708915060">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="605" height="466" key="DebuggerActiveHint/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612708915060" />
+    <state width="605" height="432" key="DebuggerActiveHint/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612708909509" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1612709153045">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612709153045" />
+    <state width="1878" height="557" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612702776729" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.999@1440.0.1920.999" timestamp="1612708902823" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612708891621" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1612709153043">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612709153043" />
+    <state width="1878" height="557" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612702776728" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.999@1440.0.1920.999" timestamp="1612708902821" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612708891619" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1612709153042">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612709153042" />
+    <state width="1878" height="557" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612702776727" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.999@1440.0.1920.999" timestamp="1612708902820" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612708891618" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1612709153044">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612709153044" />
+    <state width="1878" height="557" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612702776729" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.999@1440.0.1920.999" timestamp="1612708902822" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612708891620" />
+    <state x="1901" y="136" key="SettingsEditor" timestamp="1612701298704">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1901" y="136" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612701298704" />
+    <state x="1901" y="148" key="SettingsEditor/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612698474948" />
+    <state x="2092" y="253" width="615" height="639" key="find.popup" timestamp="1612709192814">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2092" y="253" width="615" height="639" key="find.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612709192814" />
+    <state x="2092" y="253" width="615" height="576" key="find.popup/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612698936484" />
+    <state x="2065" y="237" width="670" height="750" key="search.everywhere.popup" timestamp="1612706604090">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="237" width="670" height="750" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1612706604090" />
+    <state x="2065" y="239" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/1440.25.1920.974@1440.25.1920.974" timestamp="1612696994232" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/domain/airline/FavouritesService.dart</url>
+          <line>36</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/domain/airline/FavouritesService.dart</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

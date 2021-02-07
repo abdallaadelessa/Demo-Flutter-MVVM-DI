@@ -1,11 +1,22 @@
-import 'package:demo_mvvm_with_flutter/data/AirLineModel.dart';
+import 'package:demo_mvvm_with_flutter/domain/airline/model/AirLineDomainModel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class AirLineListTileWidget extends StatelessWidget {
-  final AirLineModel airLine;
+  final AirLineDomainModel airLine;
 
-  AirLineListTileWidget({Key key, this.airLine}) : super(key: key);
+  Color get _favouriteColor {
+    if (airLine.isFavourite) {
+      return Colors.orange;
+    } else {
+      return Colors.black;
+    }
+  }
+
+  final Function(AirLineDomainModel model) toggleFavouriteState;
+
+  AirLineListTileWidget({Key key, this.airLine, this.toggleFavouriteState})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +37,11 @@ class AirLineListTileWidget extends StatelessWidget {
           maxHeight: 44,
         ),
         child: Image.network(airLine.imageUrl, fit: BoxFit.cover),
+      ),
+      trailing: IconButton(
+        icon: Icon(Icons.android),
+        color: _favouriteColor,
+        onPressed: () => toggleFavouriteState(airLine),
       ),
     );
   }

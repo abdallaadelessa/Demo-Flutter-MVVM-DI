@@ -9,7 +9,7 @@ class VMErrorState extends VMState {
   final String msg;
 }
 
-class VMSuccessState<T> extends VMState {
-  VMSuccessState(this.value) : super();
+class VMContentState<T> extends VMState {
+  VMContentState(this.value) : super();
   final T value;
 }

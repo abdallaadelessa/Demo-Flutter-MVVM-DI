@@ -11,9 +11,12 @@ class _$Injector extends Injector {
   void configure() {
     final KiwiContainer container = KiwiContainer();
     container.registerSingleton((c) => AirLineApi());
-    container
-        .registerSingleton((c) => AirLinesSevice(airLineApi: c<AirLineApi>()));
-    container.registerFactory(
-        (c) => AirLineListPageVM(airLineService: c<AirLinesSevice>()));
+    container.registerSingleton((c) => AirLinesService(
+        airLineApi: c<AirLineApi>(),
+        favouritesService: c<FavouritesService>()));
+    container.registerSingleton((c) => FavouritesService());
+    container.registerFactory((c) => AirLineListPageVM(
+        airLineService: c<AirLinesService>(),
+        favouritesService: c<FavouritesService>()));
   }
 }

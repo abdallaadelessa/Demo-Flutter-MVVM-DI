@@ -1,4 +1,4 @@
-class AirLineModel {
+class AirLineDataModel {
   String site;
 
   String defaultName;
@@ -15,7 +15,7 @@ class AirLineModel {
 
   String get imageUrl => "https://www.kayak.com/$logoURLWithoutBaseUrl";
 
-  AirLineModel(
+  AirLineDataModel(
       {this.site,
       this.defaultName,
       this.logoURLWithoutBaseUrl,
